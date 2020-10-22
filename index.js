@@ -32,7 +32,7 @@ function removeLastKitten() {
   return kittens
 }
 
-function removeLastKitten() {
+function removeFirstKitten() {
   kittens = kittens.slice(0)
   return kittens
 }
